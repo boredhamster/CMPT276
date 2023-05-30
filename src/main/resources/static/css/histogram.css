@@ -1,0 +1,65 @@
+
+body {
+    
+  font-family: 'Times New Roman', Times, serif;
+  padding: 2rem;
+  
+}
+h1{
+    font-family: sans-serif;
+}
+*{
+    box-sizing: border-box;
+  }
+
+  section{
+    background-color:  #e3f0f4;
+    color: red;
+    font-size: 150%;
+    line-height: 2cm;
+    width:364px;
+  }
+.lower bounds{
+    
+    font-size: 25;
+    color: red;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+.boundaries{
+    background-color: #e3f0f4;
+    text-indent: 25px;
+    border: 1px;
+    height: 450px;
+    float: left;
+    width: 25%;
+    line-height: 1cm;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Graph_show{
+    background-color: #e3f0f4;
+    margin-left: 100px;
+    border: 1px;
+    position: absolute;
+    right: 700px;
+    width: 400px;
+    top: 120px;
+    line-height: 0.5cm;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Entry{
+    line-height: 3cm;
+}
+
+.grade-LB{
+    width: 75px;
+    height: 1.5rem;
+    margin-right : 100px;
+}
+
+.grade-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

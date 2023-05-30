@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histogram Generator</title>
+    <link rel="stylesheet" href="/css/histogram.css">
+    <script src="/js/calculate.js" defer></script>
+</head>
+<body>
+    <h1>Histogram Generator</h1>
+
+    
+    <section class="lower bounds">
+        <b>Lower bounds</b>
+    </section>
+<div class = "boundaries">
+    
+    <div class = "bounds">
+
+        <div class="grade-group" >
+            <span><b>Max</b></span>
+            
+            <input class="grade-LB" type="number" name= "Max" value=100.00  />
+        </div>
+        <div class="grade-group" >
+            <span><b>A+</b></span>
+            <input class=" grade-LB" type="number" name= "A+" value=95.00  />
+        </div>
+        <div class="grade-group" >
+            <span><b>A</b></span>
+            <input class=" grade-LB" type="number" name= "A" value=90.00  />
+        </div>
+        <div class="grade-group" >
+            <span><b>A-</b></span>
+            <input class=" grade-LB" type="number" name= "A-" value=85.00  />
+        </div>
+        <div class="grade-group" >
+            <span><b>B+</b></span>
+            <input class=" grade-LB" type="number" name= "B+" value=80.00  />
+        </div>
+        <div class="grade-group" >
+            <span><b>B</b></span>
+            <input class=" grade-LB" type="number" name= "B" value=75.00  />
+        </div>
+        <div class="grade-group" >
+            <span><b>B-</b></span>
+            <input class=" grade-LB" type="number" name= "B-" value=70.00  />
+        </div>
+        <div class="grade-group" >
+            <span><b>C+</b></span>
+            <input class=" grade-LB" type="number" name= "C+" value=65.00  />
+        </div>
+        <div class="grade-group" >
+            <span><b>C</b></span>
+            <input class=" grade-LB" type="number" name= "C" value=60.00  />
+        </div>
+        <div class="grade-group" >
+            <span><b>C-</b></span>
+            <input class=" grade-LB" type="number" name= "C-" value=55.00  />
+        </div>
+        <div class="grade-group" >
+            <span><b>D</b></span>
+            <input class=" grade-LB" type="number" name= "D" value=50.00  />
+        </div>
+        <div class="grade-group" >
+            <span><b>F</b></span>
+            <input class=" grade-LB" type="number" name= "F" value=0.00  />
+        </div>
+        
+    </div>
+</div>
+
+    <div class ="Graph_show">
+    <section class ="Histogram">
+        <b>Histogram</B>
+    </section>
+    <div class=graph >
+        
+        <div class="graph-group" >
+            <span><b>A+</b></span>
+            <span class="graph-data"></span>
+        </div>
+        <div class="graph-group" >
+            <span>A</span>
+            <span class="graph-data"></span>
+        </div>
+        <div class="graph-group" >
+            <span>A-</span>
+            <span class="graph-data"></span>
+        </div>
+        <div class="graph-group" >
+            <span>B+</span>
+            <span class="graph-data"></span>
+        </div>
+        <div class="graph-group" >
+            <span>B</span>
+            <span class="graph-data"></span>
+        </div>
+        <div class="graph-group" >
+            <span>B-</span>
+            <span class="graph-data"></span>
+        </div>
+        <div class="graph-group" >
+            <span>C+</span>
+            <span class="graph-data"></span>
+        </div>
+        <div class="graph-group" >
+            <span>C</span>
+            <span class="graph-data"></span>
+        </div>
+        <div class="graph-group" >
+            <span>C-</span>
+            <span class="graph-data"></span>
+        </div>
+        <div class="graph-group" >
+            <span>D</span>
+            <span class="graph-data"></span>
+        </div>
+        <div class="graph-group" >
+            <span>F</span>
+            <span class="graph-data"></span>
+        </div>
+        <div class ="Entry">
+            <form>
+                New grade: <input id = "newGradeInput" step="0.01" type="number" id="grade" >
+
+                <button type="button" onclick="gradeSubmission()" >SEND</button>
+            </form>
+            </div>
+    </div>
+    </div>
+
+    
+</div>
+</body>
+</html>
