@@ -52,7 +52,7 @@ function gradeAddition(entry){
 }
 
 function gradeSubmission(event){
-    console.log(1);
+    
     entry = document.getElementById("newGradeInput").value;
     if(!gradeVerify(entry)){
         document.getElementById("newGradeInput").value = null;
@@ -60,7 +60,7 @@ function gradeSubmission(event){
     }
     
     gradeAddition(entry);
-    console.log(2);
+    
     gradeResult();
     updateHistogram();
 }
